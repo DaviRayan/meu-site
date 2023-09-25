@@ -1,0 +1,94 @@
+body{
+
+    background-color:rgb(1, 106, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight:200 ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+span{
+    color: yellow;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: yellow;
+    transition: 0.3s all;
+}
+
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Inscreva-se-btn{
+    border: 2px solid rgb(248, 248, 7);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#Inscreva-se-btn:hover{
+    background-color:blue;
+    color: yellow;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 85%;
+    
+}
+
+input{
+    
+}
+
+form[type="subimit"]{
+   height: 50px;
+   width: 50px;
+     background-color: rgb(255, 255, 255);
+     color:yellow;
+}
